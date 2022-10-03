@@ -1,0 +1,235 @@
+<html>
+<!DOCTYPE html>
+
+  <head>
+    <title>
+        Prva web stranica
+    </title>
+  </head>
+
+  <body bgcolor="aquablue" >
+    Audio 
+    <audio controls>
+        <source src="sample-3s.mp3" type="audio/mp3">
+
+     </audio>
+     <video controls width="400" height="200" >
+        <source src="doggie.mp4" type="video/mp4">
+     </video>
+    
+    
+    <h1>  Ovo je glavni naslov na stranici</h1>
+    <a href="#kraj">Link za kraj</a>
+
+    <h2>Ove je prvi podnaslov tipa h2</h2>
+    <div align>
+      <p align="right">Sve sto se vidi na stranici.</p> 
+      <br>
+      <br>
+      <br>
+      <br>
+      <p align="right">Ovo je drugi p tag.</p>
+    </div> 
+
+    
+    <h2>Ovo je drugi podnaslov tipa h2</h2>
+    <img src="slika1.jpeg" width="200" align='right' alt="" title="Neka apstraktna slika" border="3" />
+    <br>
+    <br>
+    <ul type="circle">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ul>
+    <ol type="I">
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ol>
+    <ol type="I" start="4">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ol>   
+    <ol type="1" start="4">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ol>
+    <ol type="a" start="4">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ol>
+    <ol type="i" start="4">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ol>
+    <ol type="A" start="4">
+        <li>first item</li>
+        <li>second item</li>
+        <li>third item</li>
+    </ol>
+    <dl>
+        <dt>stavka 1</dt>
+        <dd>opis stavle 1</dd>
+        <dt>stavka 2</dt>
+        <dd>opis stavke 2</dd>
+    </dl>
+    <table width="800" height="200" border="1" cellspacing="0">
+        <tr align="center">
+            <td colspan="2">1</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td rowspan="2">6</td>
+        </tr>
+        <tr align="right">
+            <td>7</td>
+            <td>8</td>
+        </tr>
+   </table>
+   <table>
+    <th>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </th>
+    <th>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </th>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+   </table>
+    <a name="kraj" >Link za UDG sajt</a>
+    <br>
+    <a href="druga.html">Link do drugog fajla</a>
+    <img src="slika2.jpeg" alt="">
+    <a href="https://www.youtube.com/watch?v=JeUMb0OgUGg"> <img src="slika2.jpeg"></a>
+    <a href="mailto:nurudin.tivari@udg.edu.me? subject=Test poruka&body=Napisite vas komentar">Posaljite email</a>
+    <table width="800" height="400" bgcolor="#cc0000"
+    border="1" cellspacing="0">
+        <th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </th>
+        <tr>
+            <td bgcolor="blue">4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr> 
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>    
+       </table>
+     <form 
+       action="" method="post">
+       <label>Ovdje unesite ime</label>
+       <input type="text" name="ime" value="ime"/> <br>
+       <label>Ovdje unesite prezime</label>
+       <input type="text" name="prezime" value="prezime"/><br>
+       <label>Odaberite pol</label>
+       <input type="radio" name="pol" value="muski"/>Muski
+       <input type="radio" name="pol" value="zenski"/>Zenski<br>
+       <label>Odaberite kolicinu</label> <br>
+       <input type="checkbox">1 <br>
+       <input type="checkbox">2 <br>
+       <input type="checkbox">3 <br>
+       Izaberite boju:
+       <select>
+        <option>plava</option>
+        <option>zuta</option>
+        <option>crvena</option>
+        <option>zelena</option>
+       </select>
+       <br>
+       <textarea name="" id="" cols="200" rows="6">TextArea</textarea>
+       <input type="submit" name="posalji" value="posalji">
+       <input type="reset" name="ponisti" value="ponisti"> 
+       <br>
+       <input type="email">
+       <input type="submit" value="Go">
+       <br>
+       Quantity(between 1 and 5)
+       <input type="number" name="qauntity" min="1" max="5">
+       <br>
+       Points
+       <input type="number" name="points" min="0" max="100"
+       step="10" value="30">
+       <br>
+       Birthday
+       <input type="date" name="bday">
+       <br>
+       Color
+       <input type="color" name="favcolor">
+       <br>
+       <input type="range" name="points" min="0" max="10">
+       <br>
+       Telephone:
+       <input type="tel" name="usrtel">
+       <br>
+       <figure>
+        <img src="udg.jpeg" alt="UDG Logo">
+        <figcaption>
+            UDG logo.Original by: <a href="https://www.udg.edu.me">UDG</a>
+        </figcaption>
+       </figure>
+       <br>
+       <section style="color: green;">
+         <h1>WWF</h1>
+         <p>The World Wide Fund for Nature(WWF) is...</p>
+       </section>
+       <aside>
+        <h4>Epcot Center</h4>
+        <p>The Epcot Center is a theme park in Disney World,Florida</p>
+       </aside>
+       <details>
+        <summary>Copyright 1999-2014</summary>
+        <p> - by Refsnes Data. All Rights Reserved</p>
+        <p>All content and graphics are property of this company.</p>
+       </details>
+       <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Aisle</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bread</td>
+                <td>2</td>
+                <td>$3.00</td>
+                <td>1</td>
+            </tr>
+            
+            <tr>
+                <td>Milk</td>
+                <td>1</td>
+                <td>$2.50</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        
+       </table>
+
+
+
+
+     </form>
+    
+       <!--ovo ne zelim da se vidi-->
+  </body>
+
+</html>
